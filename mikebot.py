@@ -32,12 +32,12 @@ async def on_message(message):
         return
     
     #math rule
-    if re.search(r"\b[Mm][Aa][Tt][Hh]\b", message.content) and "i hate math" not in message.content and "!mike8" not in message.content:
-           await message.channel.send('did someone say math')
+   # if re.search(r"\b[Mm][Aa][Tt][Hh]\b", message.content) and "i hate math" not in message.content and "!mike8" not in message.content:
+   #        await message.channel.send('did someone say math')
            
     #teemo rule
-    if re.search(r"\b[Tt][Ee][Ee][Mm][Oo]\b", message.content) in message.content and "!mike8" not in message.content:
-           await message.channel.send(':0 teemo')     
+   # if re.search(r"\b[Tt][Ee][Ee][Mm][Oo]\b", message.content) in message.content and "!mike8" not in message.content:
+   #        await message.channel.send(':0 teemo')     
            
     #!mikehelp       
     if (message.content=="!mikehelp"):
