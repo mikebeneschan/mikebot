@@ -41,7 +41,7 @@ async def on_message(message):
            
     #!mikehelp       
     if (message.content=="!mikehelp"):
-        await message.channel.send("hey what's up gamers i'm mikebot. i'm a discord bot that's automated to sound like mike so that mike can go play animal crossing or something\n-----\nthese are my commands:\n -!mikehelp - lists commands\n -!mike - random message from mike\n -!mike8 {your question}- 8-ball command. ask mike a question and i will answer for him\n -math - i like math and if you ever mention math _i will know_" )
+        await message.channel.send("hey what's up gamers i'm mikebot. i'm a discord bot that's automated to sound like mike so that mike can go play animal crossing or something\n-----\nthese are my commands:\n -!mikehelp - lists commands\n -!mike - random message from mike\n -!mike8 {your question}- 8-ball command. ask mike a yes/no question and i will answer for him\n -math - i like math and if you ever mention math _i will know_" )
     
     #!mike
     if (message.content=="!mike"):
