@@ -7,6 +7,7 @@ import discord
 #import nest_asyncio
 import random
 import os
+import re
 
 client = discord.Client()
 guild = discord.Guild
@@ -31,7 +32,7 @@ async def on_message(message):
         return
     
     #math rule
-    if "math" in message.content and "i hate math" not in message.content and "!mike8" not in message.content:
+    if re.search(r"\b[Mm]ath\b", message.content) and "i hate math" not in message.content and "!mike8" not in message.content:
            await message.channel.send('did someone say math')
            
     #teemo rule
