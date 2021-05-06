@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 """
 Created on Mon May  3 20:37:54 2021
-
 @author: Benes
 """
 import discord
