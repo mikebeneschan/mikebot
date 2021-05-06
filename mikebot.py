@@ -55,6 +55,5 @@ async def on_message(message):
     if "i hate math" in message.content:
         await message.channel.send(">:0 how dare you hate math")
 
-# message.channel.send
 client.run(token)
 # nest_asyncio.apply()        
