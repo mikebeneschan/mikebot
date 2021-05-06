@@ -6,7 +6,7 @@ Created on Mon May  3 20:37:54 2021
 import discord
 import nest_asyncio
 import random
-
+import os
 
 client = discord.Client()
 guild = discord.Guild
