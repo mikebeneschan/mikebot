@@ -4,7 +4,7 @@ Created on Mon May  3 20:37:54 2021
 @author: Benes
 """
 import discord
-import nest_asyncio
+#import nest_asyncio
 import random
 import os
 
@@ -23,7 +23,7 @@ async def on_ready():
     print(client.user.name)
     print(client.user.id)
     print('------')
-nest_asyncio.apply()    
+# nest_asyncio.apply()    
 
 @client.event
 async def on_message(message):
@@ -56,4 +56,4 @@ async def on_message(message):
 
 # message.channel.send
 client.run(token)
-nest_asyncio.apply()        
+# nest_asyncio.apply()        
