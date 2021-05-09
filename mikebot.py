@@ -18,6 +18,8 @@ mikeQuotes = ["_decisions have consequences_","_i've killed more men with words_
 
 mike8ball = ["oh heck yeah","oh hell no","yis","no lmao",":0 sure",":eyes: maybe","yes swear on me mum","nO","oui oui","NOPE","i mean i guess so","no that sounds spooky","??? i don't know","yes as long as there's no xerath involved","unfortunately no, gamer", "i mean okay yeah","no your honor","im gonna go with a yes your honor","yes but only with teemo","lmao","yikes","yes i believe","no :'0","yes","nope"]
 
+franky8ball = ["for you franky, yes","for you franky, absolutely","for you franky, sure", "for you franky, i will only say yes", "for you franky, i agree that xerath sucks. also yes", "franky that sounds cap","yes your honor- i mean franky","yes, and also franky, xerath sucks","for you franky, i'll go with a yes","hell yeah franky", "unfortunately no, franky", "yikes","lmao","heck yeah franky","no your honor- i mean franky","for you franky, yis","just because it's you franky, no","lmao nope","yes, and also you should play smite zyra mid", "no :c", "NOPE"]
+
 @client.event
 async def on_ready():
     print('Logged in as')
@@ -49,7 +51,10 @@ async def on_message(message):
     
     #!mike8
     if message.content.startswith("!mike8"):
-        await message.channel.send(random.choice(mike8ball))
+        if (str(message.author)=="Ray1500#8011"):
+            await message.channel.send(random.choice(franky8ball))
+        else:
+            await message.channel.send(random.choice(mike8ball))
     
     #i hate math rule
     if "i hate math" in message.content:
