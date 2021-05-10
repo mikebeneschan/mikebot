@@ -8,17 +8,13 @@ import discord
 import random
 import os
 import re
+from mike_quotes import mikeQ, mike8ball
+from spec_quotes import franky8ball, creator8ball, megan8ball, jacky8ball, britney8ball, kev8ball, kiett8ball, kyle8ball, ariel8ball, nathan8ball, kelly8ball, lexie8ball, alvi8ball, hannah8ball, mikey8ball, brandon8ball, mathieu8ball
 
 client = discord.Client()
 guild = discord.Guild
 
 token = os.getenv('DISCORD_TOKEN')
-
-mikeQuotes = ["_decisions have consequences_","_i've killed more men with words_","poop","beep boop","oh hi mark","you've been blinded, fool","why the fuck are they nerfing bard","oh hell no","https://www.youtube.com/watch?v=uH0hikcwjIA",":0 yes that's me","math is pretty cool","teemo is the best champion in the game","that was not very cash money of you","that's a money move right there",":eyes: what's up gamers","jugilae????", "we must dance to shame dog planet","dude i feel that","dude that reminds me of when i was in popreka, ucsc's finest kpop dance group","cki is pain", "when will jeff carry me", "your honor, that's cap", "im a macro player","schnucki", "please look at this german content \nhttps://www.youtube.com/watch?v=39UDZMgPg5k"]
-
-mike8ball = ["oh heck yeah","oh hell no","yis","no lmao",":0 sure",":eyes: maybe","yes swear on me mum","nO","oui oui","NOPE","i mean i guess so","no that sounds spooky","??? i don't know","yes as long as there's no xerath involved","unfortunately no, gamer", "i mean okay yeah","no your honor","im gonna go with a yes your honor","yes but only with teemo","lmao","yikes","yes i believe","no :'0","yes","nope"]
-
-franky8ball = ["for you franky, yes","for you franky, absolutely","for you franky, sure", "for you franky, i will only say yes", "for you franky, i agree that xerath sucks. also yes", "franky that sounds cap","yes your honor- i mean franky","yes, and also franky, xerath sucks","for you franky, i'll go with a yes","hell yeah franky", "unfortunately no, franky", "yikes","lmao","heck yeah franky","no your honor- i mean franky","for you franky, yis","just because it's you franky, no","lmao nope","yes, and also you should play smite zyra mid", "no :c", "NOPE"]
 
 @client.event
 async def on_ready():
@@ -47,12 +43,15 @@ async def on_message(message):
     
     #!mike
     if (message.content=="!mike"):
-           await message.channel.send(random.choice(mikeQuotes))
+           await message.channel.send(random.choice(mikeQ))
     
     #!mike8
     if message.content.startswith("!mike8"):
         if (str(message.author)=="Ray1500#8011"):
             await message.channel.send(random.choice(franky8ball))
+        #mike
+        elif (str(message.author)=="beneschan#9845"):
+            await message.channel.send(random.choice(creator8ball+mike8ball))
         else:
             await message.channel.send(random.choice(mike8ball))
     
