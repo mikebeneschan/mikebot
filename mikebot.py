@@ -47,11 +47,57 @@ async def on_message(message):
     
     #!mike8
     if message.content.startswith("!mike8"):
+        #franky
         if (str(message.author)=="Ray1500#8011"):
             await message.channel.send(random.choice(franky8ball))
+        #megan
+        elif (str(message.author)=="meg#5937"):
+            await message.channel.send(random.choice(megan8ball+mike8ball))
         #mike
         elif (str(message.author)=="beneschan#9845"):
             await message.channel.send(random.choice(creator8ball+mike8ball))
+        #britney
+        elif (str(message.author)=="brit#7538"):
+            await message.channel.send(random.choice(britney8ball+mike8ball))
+        #kev
+        elif (str(message.author)=="kev#3104"):
+            await message.channel.send(random.choice(kev8ball+mike8ball))
+        #ariel
+        elif (str(message.author)=="ariii#3082"):
+            await message.channel.send(random.choice(ariel8ball+mike8ball))
+        #kyle
+        elif (str(message.author)=="FLUFFYzOMG#8290"):
+            await message.channel.send(random.choice(kyle8ball+mike8ball))
+        #kiett
+        elif (str(message.author)=="Kiett#9385"):
+            await message.channel.send(random.choice(kiett8ball+mike8ball))
+        #jacky
+        elif (str(message.author)=="jacky#3616"):
+            await message.channel.send(random.choice(jacky8ball+mike8ball))
+        #nathan
+        elif (str(message.author)=="soul#8497"):
+            await message.channel.send(random.choice(nathan8ball+mike8ball))          
+        #kelly    
+        elif (str(message.author)=="kellyellow#5482"):
+            await message.channel.send(random.choice(kelly8ball+mike8ball))          
+        #alvi
+        elif (str(message.author)=="ItsLV#7146"):
+            await message.channel.send(random.choice(alvi8ball+mike8ball))          
+        #lexie
+        elif (str(message.author)=="ScarletHeart#4514"):
+            await message.channel.send(random.choice(lexie8ball+mike8ball))          
+        #hannah
+        elif (str(message.author)=="yue#5715"):
+            await message.channel.send(random.choice(hannah8ball+mike8ball))          
+        #mikey
+        elif (str(message.author)=="mikey#4269"):
+            await message.channel.send(random.choice(mikey8ball+mike8ball))          
+        #brandon
+        elif (str(message.author)=="yoroba#5636"):
+            await message.channel.send(random.choice(brandon8ball+mike8ball))          
+        #mathieu
+        elif (str(message.author)=="mathieu1111#2963"):
+            await message.channel.send(random.choice(mathieu8ball+mike8ball))
         else:
             await message.channel.send(random.choice(mike8ball))
     
