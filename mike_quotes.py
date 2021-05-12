@@ -22,7 +22,7 @@ mikeQ = ["_decisions have consequences_",
          "your honor, that's cap", 
          "im a macro player",
          "schnucki", 
-         "please look at this german content \nhttps://www.youtube.com/watch?v=39UDZMgPg5k"
+         "please look at this german content \nhttps://www.youtube.com/watch?v=39UDZMgPg5k",
          "taric mains are psychopaths"]
 
 mike8ball = ["oh heck yeah",
