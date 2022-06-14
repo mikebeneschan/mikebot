@@ -41,7 +41,15 @@ jacky8ball = ["yes but also you are a furry jacky",
               "no jacky",
               "no, furry",
               "yes, furry",
-              "absolutely jacky"]
+              "absolutely jacky",
+              "yes but only if you stop meowing",
+              "no and btw jacky if you meow again im calling PETA"]
+dillon8ball = ["yes jungler",
+               "no jungler",
+               "yes dillon",
+               "no dillon",
+               
+              ]
 
 megan8ball = ["haha, shut up megan",
               "haha, shut up megan",
