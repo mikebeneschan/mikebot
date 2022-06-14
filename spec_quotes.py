@@ -41,7 +41,36 @@ jacky8ball = ["yes but also you are a furry jacky",
               "no jacky",
               "no, furry",
               "yes, furry",
-              "absolutely jacky"]
+              "absolutely jacky",
+              "yes but only if you stop meowing",
+              "no and btw jacky if you meow one more time im calling PETA"]
+
+dillon8ball = ["yes dillon",
+              "no dillon",
+              "yes dillon jungler",
+              "no dillon jungler",
+              "yes you naughty little tax elf",
+              "no you naughty little tax elf",
+              "yes, tax this dick",
+              "no luig- i mean dillon",
+              "ha, tax this dick amiright? bada bing",
+              "whatever business major",
+              "yes accountant man",
+              "dillon????",
+              "haha sure dillon now add me on linkedin",
+              "no that wasn't on the agenda",
+              "_dillon voice_ yes sir",
+              "hey typhocannon, which tran sibling am i talking to?",
+              "no dillon from milpitas",
+              "no dillon, who once took a point off of united states ping pong champion Kanak Jha",
+              "no and i hope they nerf xin zhao",
+              "yes and i hope they buff xin zhao",
+              "it's only yes if i get a gank dillon",
+              "no because you didn't play boy with luv ft. halsey",
+              "yeah coldplay!",
+              "no... what would RM think?",
+              "please hang out with me in irvine dillon"
+              ]
 
 megan8ball = ["haha, shut up megan",
               "haha, shut up megan",
@@ -61,6 +90,7 @@ britney8ball = ["heck yeah britney",
                 "yes, chogath main",
                 "yes, neeko main",
                 "no, neeko main"]
+
 
 nathan8ball = ["yes nathan",
                "no nathan",
