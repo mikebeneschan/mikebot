@@ -9,7 +9,7 @@ import random
 import os
 import re
 from mike_quotes import mikeQ, mike8ball
-from spec_quotes import franky8ball, creator8ball, megan8ball, jacky8ball, britney8ball, kev8ball, kiett8ball, kyle8ball, ariel8ball, nathan8ball, kelly8ball, lexie8ball, alvi8ball, hannah8ball, mikey8ball, brandon8ball, mathieu8ball
+from spec_quotes import franky8ball, creator8ball, megan8ball, jacky8ball, dillon8ball, britney8ball, kev8ball, kiett8ball, kyle8ball, ariel8ball, nathan8ball, kelly8ball, lexie8ball, alvi8ball, hannah8ball, mikey8ball, brandon8ball, mathieu8ball
 
 client = discord.Client()
 guild = discord.Guild
@@ -74,6 +74,9 @@ async def on_message(message):
         #jacky
         elif (str(message.author)=="jacky#3616"):
             await message.channel.send(random.choice(jacky8ball+mike8ball))
+        #dillon
+        elif (str(message.author)=="Diyllliaon#8346"):
+            await message.channel.send(random.choice(dillon8ball+mike8ball))            
         #nathan
         elif (str(message.author)=="soul#8497"):
             await message.channel.send(random.choice(nathan8ball+mike8ball))          
