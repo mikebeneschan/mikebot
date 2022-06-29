@@ -5,6 +5,7 @@ Created on Sun May  9 19:09:46 2021
 @author: Benes
 """
 mikeQ = ["decisions have consequences",
+         "ive killed more men with words",
          "poop",
          "beep boop",
          "oh hi mark",
@@ -51,7 +52,11 @@ mikeQ = ["decisions have consequences",
          "im a macro player",
          "schnucki", 
          "please look at this german content \nhttps://www.youtube.com/watch?v=39UDZMgPg5k",
-         "taric mains are psychopaths"]
+         "taric mains are psychopaths",
+         "pp",
+         "pp mode not enabled",
+         "*skye accent* help a girl out wouldja",
+          ]
 
 mike8ball = ["oh heck yeah",
              "oh hell no",
